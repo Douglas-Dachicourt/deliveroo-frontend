@@ -5,6 +5,7 @@ import logo from "./assets/img/logo-deliveroo.png"
 import Header from "./assets/components/Header"
 import Hero from './assets/components/Hero'
 import FullArticle from './assets/components/FullArticle'
+import Footer from './assets/components/Footer'
 
 
 function App() {
@@ -40,10 +41,7 @@ return isLoading?
     <div className='right-main'></div>
   </div>
 </main>
-
-<footer>
-  <p>Made with <a href="https://fr.legacy.reactjs.org/" target='blank'>React</a> by <a href="https://github.com/Douglas-Dachicourt" target='blank'>Douglas</a> for <a href="https://www.lereacteur.io/" target='blank'>Le Reacteur</a></p>
-</footer>
+<Footer/>
 </>
 )}
 
